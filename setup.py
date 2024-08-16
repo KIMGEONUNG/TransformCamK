@@ -7,7 +7,7 @@ setup(
     author='Geonung Kim',
     author_email='saywooong@gmail.com',
     packages=[
-        'TransCamK',
+        'TransformCamK',
     ],  # same as name
     # install_requires=['wheel', 'bar', 'greek'], #external packages as dependencies
     # entry_points={
