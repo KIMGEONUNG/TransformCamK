@@ -6,7 +6,7 @@ import sys
 import pickle
 
 sys.path.append('.')
-from utils import resize_intrinsic_param, crop_intrinsic_param, Resize_with_K, CenterCrop_with_K
+from TransformCamK import Resize_with_K, CenterCrop_with_K
 
 MAX = 65504.0
 LEN = 512
