@@ -20,7 +20,7 @@ from PIL import Image
 transform = Compose([
     Resize_with_K(512),
     CenterCrop_with_K(512),
-]),
+])
 
 W, H = 400, 600
 fx, fy = 800, 800
